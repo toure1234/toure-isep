@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(90, 9, 196);
+}
+form{
+    margin-top: 20px;
+    background-color: rgb(214, 133, 187);
+    padding: 30px 6px 4px;  
+    border-radius: 2px;
+    min-width: 20px;
+}
+form h1{
+    color: #000fff;
+    text-align: center;
+}
+form .social-medial{
+    margin-top: -5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+form .social-medial image{
+    padding: 2px;
+    margin-left: 20px;
+    text-align: left;
+    cursor: pointer;
+    border: 1px solid #ffff;
+    border-radius: 95%;
+}
+form .inputs{
+    display: flex;
+    flex-direction: column;
+}
+form .inputs input[type="name"], input[type="email"], input[type="message"]{
+    padding: 10px;
+    border-radius: none;
+    background-color: #f2f2ff;
+}
+form button{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000fff;
+}
